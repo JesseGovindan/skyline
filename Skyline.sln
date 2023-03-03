@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{66C08B3A-F8E0-4BC5-92C5-9E4EA99C77EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline", "src\Skyline\Skyline.csproj", "{6238CEC5-F02D-4682-B855-8E357CC58473}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6AF89007-85E3-44B7-9AF7-D67EF1FBA87D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline.Test", "test\Skyline.Test\Skyline.Test.csproj", "{02D48E4C-B5FE-450F-9ADA-95A1EC9623EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6238CEC5-F02D-4682-B855-8E357CC58473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6238CEC5-F02D-4682-B855-8E357CC58473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6238CEC5-F02D-4682-B855-8E357CC58473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6238CEC5-F02D-4682-B855-8E357CC58473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D48E4C-B5FE-450F-9ADA-95A1EC9623EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D48E4C-B5FE-450F-9ADA-95A1EC9623EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D48E4C-B5FE-450F-9ADA-95A1EC9623EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D48E4C-B5FE-450F-9ADA-95A1EC9623EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6238CEC5-F02D-4682-B855-8E357CC58473} = {66C08B3A-F8E0-4BC5-92C5-9E4EA99C77EE}
+		{02D48E4C-B5FE-450F-9ADA-95A1EC9623EB} = {6AF89007-85E3-44B7-9AF7-D67EF1FBA87D}
+	EndGlobalSection
+EndGlobal
